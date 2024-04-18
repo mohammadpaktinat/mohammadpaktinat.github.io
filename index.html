@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="./style.css">
+   <title>langing page</title>
+</head>
+<body>
+   <nav>
+      <div class="logo">
+         <img src="./profile2.jpg" alt="user profile" class="profile2">
+      </div>
+      <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Portfolio</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">Contact</a></li>
+      </ul>
+   </nav>
+   <header>
+      <button id="toggle" class="toggle">
+         <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>Welcome To My Web-Page</h1>
+      <h2>I'm Mohammad Paktinat,<br/>And this is my Curriculum Vitae which contains my Projects , Educational Certificates and Resume.</h2>
+      
+      <p>ps: some parts of my Web-Page are not ready yet, but i have specific plans for them which are a secret now :) </p>
+      <p>Wait for amazing surprises...</p>
+      <button id="open" class="cta-btn">Sign Up</button>
+   </header>
+
+     <div class="container">
+      
+      <h1>Instagram ID : @mohammadpaktiant</h1>
+      <p>phone number : <b>0990-221-7075</b></p>
+      <img src="./profile1.jpg" class="profile1">
+     </div>
+
+
+   <div class="modal-container" id="modal">
+      <div class="modal">
+         <button class="close-btn" id="close">
+            <i class="fa fa-times"></i>
+         </button>
+
+         <div class="modal-header">
+            <h3>Sign Up</h3>
+         </div>
+         <div class="modal-content">
+            <p>Register for Learn Free</p>
+            <form class="modal-form">
+               <div>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Enter Your Name" class="form-input">
+               </div>
+               <div>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Enter Your Email" class="form-input">
+               </div>
+               <div>
+                  <label for="password">Password</label>
+                  <input type="password" id="password" placeholder="Enter Password" class="form-input">
+               </div>
+               <div>
+                  <label for="password2">Confrim assword</label>
+                  <input type="password" id="password2" placeholder="Enter Password" class="form-input">
+               </div>
+
+               <input type="submit" value="Submit" class="submit-btn">
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <script src="./script.js"></script>
+</body>
+</html>
